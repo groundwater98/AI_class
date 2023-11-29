@@ -1,0 +1,14 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://ailab.inha.ac.kr/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ailab.inha.ac.kr/student/HongMD> a foaf:Person ;
+    ns1:skill "AI"^^xsd:string,
+        "DB"^^xsd:string ;
+    foaf:givenName "HongMD"^^xsd:string ;
+    foaf:knows <http://ailab.inha.ac.kr/professor/JoGS> ;
+    foaf:mbox "hong@gmail.com"^^xsd:anyURI ;
+    foaf:nick "RedCarrot" .
+
+<http://ailab.inha.ac.kr/professor/JoGS> a foaf:Person .
+
